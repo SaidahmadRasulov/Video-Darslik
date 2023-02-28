@@ -1,0 +1,67 @@
+/* Fonts Family */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .15s;
+    font-family: "Fredoka", sans-serif;
+}
+
+:root {
+    --light-one: #ECF8F9;
+    --light-two: #D2E1E2;
+    --light-three: #ADBEC0;
+    --light-four: #889D9F;
+    --dark-one: #273d37;
+    --dark-two: #324943;
+    --dark-three: #3D554F;
+    --dark-four: #4C6660; 
+}
+
+p {margin-bottom: .4rem;}
+
+h1, h2, h3, h4, h5, h6 {margin-bottom: .8rem;}
+
+.navbar {
+    background-color: #4081d7;
+    color: var(--light-one);
+}
+
+.max {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fs-3 {
+    font-size: .7rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.white {
+    list-style: none;
+    text-decoration: none;
+    transition: .2s ease-in;
+    color: black;
+}
+
+.white:hover {
+    color: #4081d7;
+    font-size: 18px;
+    transition: .2s ease-in;
+}

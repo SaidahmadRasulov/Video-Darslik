@@ -1,0 +1,69 @@
+.courses {
+    display: grid;
+    grid-template-columns: 400px auto;
+    /* gap: 1.5rem */
+}
+
+.youtube-video {
+    height: 75vh;
+    margin: 1rem;
+    position: absolute;
+    top: 7rem;
+    right: -14.5px;
+    width: 73.7%;
+}
+
+.lessons {
+    border-top: 4px solid rgb(211, 211, 211);
+}
+
+.list-group-item {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    margin: .2rem 0;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.courses-div {
+    background: linear-gradient(rgba(0, 0, 0, 0.704), rgba(0, 0, 0, 0.786)), url(../../../media/banner.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%;
+}
+
+.s-title {
+    background-color: white;
+    padding: 10px 14px;
+    text-align: center;
+}
+
+.nav-yt-video {
+    text-align: end;
+    background-color: #4081d7;
+    height: 5rem;
+    position: relative;
+    border-top: 4px solid rgb(211, 211, 211);
+}
+
+.nav-yt-video button {
+    padding: 14px 20px;
+    margin: 10px 10px 0 0;
+    border: 2px solid #14427e;
+    background-color: white;
+    border-radius: 6rem;
+    font-size: 17px;
+    transition: .3s ease-in;
+}
+
+.nav-yt-video button:hover {
+    cursor: pointer;
+    background-color: rgb(52, 178, 52);
+    color: white;
+    border: 2px solid transparent;
+    transition: .3s ease-in;
+}
